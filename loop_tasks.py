@@ -1,0 +1,62 @@
+print("Numbers from 1 to 100:")
+
+for i in range(1, 101):
+    print(i)
+print("\nCountdown Timer:")
+
+count = 10
+
+while count > 0:
+    print(count)
+    count -= 1
+
+print("Time's up!")
+print("\nBreak and Continue Example:")
+
+for i in range(1, 11):
+    if i == 5:
+        print("Breaking loop at", i)
+        break   # stops the loop
+
+    if i == 3:
+        continue  # skips this iteration
+
+    print(i)
+print("\nIterating over string characters:")
+
+name = "Python"
+
+for char in name:
+    print(char)
+print("\nMultiplication Table of 5:")
+
+num = 5
+
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)
+print("\nNumbers from 0 to 20 with step 2:")
+
+for i in range(0, 21, 2):
+    print(i)
+print("\nEven numbers between 1 and 20:")
+
+for i in range(1, 21):
+    if i % 2 == 0:
+        print(i)
+print("\nLogin Attempt Simulation:")
+
+correct_password = "admin123"
+attempts = 3
+
+while attempts > 0:
+    password = input("Enter password: ")
+
+    if password == correct_password:
+        print("Login successful")
+        break
+    else:
+        attempts -= 1
+        print("Wrong password. Attempts left:", attempts)
+
+if attempts == 0:
+    print("Account locked")
