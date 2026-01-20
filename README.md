@@ -1,2 +1,13 @@
-# loop_tasks.py
-Task 4 – Loops &amp; Iterations in Python  - Python program demonstrating loops, iteration, and control flow using real-world examples. It covers for and while loops, break and continue statements, range functions, string iteration, multiplication tables, conditional logic within loops, and real-world examples like countdown timers and login attempts.
+# Task 4 – Loops & Iterations
+
+This project demonstrates Python loops including for loop, while loop,
+break, continue, range(), string iteration, multiplication tables,
+and real-world examples like login attempts.
+
+## Concepts Covered
+- for loop
+- while loop
+- break & continue
+- range() with steps
+- Loop conditions
+- Real-world automation logic
